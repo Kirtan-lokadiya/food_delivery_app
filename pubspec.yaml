@@ -1,0 +1,39 @@
+name: food_delivery_app
+description: "A food delivery application"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.15.4
+  firebase_analytics: ^10.8.5
+  provider: ^6.0.5
+  google_fonts: ^5.1.0
+  flutter_rating_bar: ^4.0.1
+  geolocator: ^10.0.0
+  google_maps_flutter: ^2.4.0
+  flutter_polyline_points: ^2.1.0
+  shared_preferences: ^2.2.0
+  geocoding: ^2.1.1
+  image_picker: ^1.0.4
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.7
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
